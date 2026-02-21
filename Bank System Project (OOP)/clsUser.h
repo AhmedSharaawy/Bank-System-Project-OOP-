@@ -389,7 +389,7 @@ public:
 
 		fstream MyFile;
 
-		MyFile.open("LoginRegister.txt", ios::out | ios::app);
+		MyFile.open("LoginRegister.txt", ios::in);
 
 		if (MyFile.is_open())
 		{
